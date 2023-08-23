@@ -1,0 +1,68 @@
+.landing-page-wrapper {
+    background-color: var(--background-white);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.landing-page-wrapper .bg-content {
+    width: 100vw;
+    height: 60vh;
+    background-image: url("../images/peer-studying.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; 
+}
+
+.landing-page-wrapper .content {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    height: 60%;
+}
+
+.landing-page-wrapper .info-cards {
+    display: flex;
+    gap:30px;
+    position: relative;
+    margin: 50px 0;
+    font-family: var(--main-font);
+    font-size: var(--base-font-size);
+    height: 80%;
+}
+
+.landing-page-wrapper .card {
+    width: 250px;
+    background-color: var(--background-opacity-1);
+    text-align: center;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.landing-page-wrapper hr {
+    width: 90%;
+    color: var(--secondary);
+}
+
+.landing-page-wrapper .card-title {
+    margin: 20px 0;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    font-family: var(--heading-font);
+    color: var(--text-dark);
+    font-size: var(--medium-font-size);
+}
+
+.landing-page-wrapper .card p {
+    margin: 30px 10px;
+    height: 150px;
+    line-height: 25px;
+    font-family: var(--main-font);
+    font-size: var(--base-font-size);
+}

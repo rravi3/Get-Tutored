@@ -1,0 +1,61 @@
+:root {
+    --text-dark: #343434;
+    --text-light-1: #fafafa;
+    --text-light-2: #e9e8e8;
+    --background-white: #f6f6f4;
+    --background: #5F5980;
+    --background-dark-1: #52505f;
+    --background-dark-2: #37373a;
+    --background-opacity-1: rgba(138, 134, 161, 0.1);
+    --background-opacity-5: rgba(95, 89, 128, 0.5);
+    --primary: #0E34A0;
+    --primary-1: #1E55EB;
+    --primary-2: #1244CE;
+    --primary-3: #0B2B83;
+    --primary-4: #081F5E;
+    --secondary: #2F3061;
+    --secondary-1: #4A4E96;
+    --secondary-2: #3D407B;
+    --secondary-3: #212245;
+    --secondary-4: #141529;
+    --main-font:  Verdana, sans-serif;
+    --heading-font: 'Times New Roman', serif;
+    --base-font-size: 15px;
+    --medium-font-size: 30px;
+    --large-font-size: 60px;
+    --Xlarge-font-size: 120px;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: var(--background);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--secondary);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--secondary-3);
+}
+
+body {
+    background-color: var(--background);
+    margin: 0;
+    overflow-x: hidden;
+    font-family: var(--main-font);
+    font-size: var(--base-font-size);
+}
