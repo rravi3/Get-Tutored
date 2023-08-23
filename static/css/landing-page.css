@@ -50,8 +50,8 @@
 }
 
 .landing-page-wrapper .card-title {
-    margin: 20px 0;
-    height: 30px;
+    margin: 30px 0;
+    height: 40px;
     display: flex;
     align-items: center;
     font-family: var(--heading-font);

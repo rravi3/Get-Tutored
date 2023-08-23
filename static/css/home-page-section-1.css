@@ -1,0 +1,83 @@
+.home-page-section-1-wrapper {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.home-page-section-1-wrapper .content {
+    height: 100%;
+    width: 100%;
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-page-section-1-wrapper .book-consulation-section {
+    display: flex;
+    height: 50%;
+    justify-content: center;
+}
+
+.home-page-section-1-wrapper .information {
+    width: 50%;
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-page-section-1-wrapper .information .title {
+    text-align: center;
+    padding: 0 0 40px 0;
+    font-family: var(--heading-font);
+    font-size: var(--medium-font-size);
+}
+
+.home-page-section-1-wrapper .information p {
+    line-height: 22px;
+    color: var(--text-dark);
+}
+
+.home-page-section-1-wrapper .information button {
+    width: 150px;
+    height: 50px;
+    background-color: var(--primary-2);
+    border-radius: 5px;
+    color: var(--text-light-1);
+    border: none;
+    transition: background-color 0.5s ease-in-out;
+    margin: 30px 0 0 0;
+}
+
+.home-page-section-1-wrapper .information:hover button {
+    background-color: var(--primary-1);
+    cursor: pointer;
+}
+
+.home-page-section-1-wrapper .image {
+    width: 50%;
+}
+
+.home-page-section-1-wrapper .image img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.home-page-section-1-wrapper .concept-cards {
+    margin: 50px 50px;
+    width: 90%;
+    height: 30%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.home-page-section-1-wrapper .concept-cards .card {
+    margin: 5px 20px;
+    text-align: center;
+    height: 20px;
+    color: var(--text-light-2);
+    font-family: var(--heading-font);
+    font-size: var(--base-font-size);
+}
