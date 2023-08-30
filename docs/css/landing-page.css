@@ -30,6 +30,8 @@
     font-family: var(--main-font);
     font-size: var(--base-font-size);
     height: 80%;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .landing-page-wrapper .card {
