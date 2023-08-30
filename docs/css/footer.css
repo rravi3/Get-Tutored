@@ -34,6 +34,11 @@ footer {
 }
 
 #about-us-description {
-    width: 800px;
     text-align: justify;
+}
+
+@media screen and (min-width: 900px){
+    #about-us-description {
+        width: 800px;
+    }
 }
