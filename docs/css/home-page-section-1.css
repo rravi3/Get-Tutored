@@ -1,11 +1,9 @@
 .home-page-section-1-wrapper {
-    height: 100vh;
     width: 100vw;
     position: relative;
 }
 
 .home-page-section-1-wrapper .content {
-    height: 100%;
     width: 100%;
     padding: 30px 30px;
     display: flex;
@@ -67,7 +65,7 @@
 .home-page-section-1-wrapper .concept-cards {
     margin: 50px 50px;
     width: 90%;
-    height: 30%;
+    min-height: 30%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
@@ -76,7 +74,8 @@
 .home-page-section-1-wrapper .concept-cards .card {
     margin: 5px 20px;
     text-align: center;
-    height: 20px;
+    min-height: 20px;
+    max-height: 60px;
     color: var(--text-light-2);
     font-family: var(--heading-font);
     font-size: var(--base-font-size);
