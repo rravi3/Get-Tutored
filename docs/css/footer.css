@@ -2,7 +2,7 @@ footer {
     background-color: black;
     padding: 20px;
     text-align: center;
-    color: var(--text-dark);
+    color: var(--text-light-2);
 }
 
 .about-us {
