@@ -12,12 +12,14 @@
     padding: 30px 30px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .home-page-section-1-wrapper .book-consulation-section {
     display: flex;
     height: 50%;
     justify-content: center;
+    align-items: center;
 }
 
 .home-page-section-1-wrapper .information {
@@ -58,13 +60,12 @@
 }
 
 .home-page-section-1-wrapper .image {
-    width: 50%;
     display: flex;
     justify-content: center;
 }
 
 .home-page-section-1-wrapper .image img {
-    max-width: 500px;
+    max-width: 100%;
     border-radius: 5px;
     height: 100%;
 }
@@ -86,4 +87,130 @@
     color: var(--text-light-2);
     font-family: var(--heading-font);
     font-size: var(--base-font-size);
+}
+
+
+@media screen and (max-width: 768px) {
+
+    /* Your mobile-specific styles here */
+    .home-page-section-1-wrapper {
+        width: 100vw;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: 100vh;
+    }
+
+    .home-page-section-1-wrapper .content {
+        width: 100%;
+        padding: 30px 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .home-page-section-1-wrapper .book-consulation-section {
+        display: flex;
+        height: 50%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .home-page-section-1-wrapper .information {
+        width: 90%;
+        padding: 30px 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .home-page-section-1-wrapper .information .title {
+        text-align: center;
+        padding: 0 0 40px 0;
+        font-family: var(--heading-font);
+        font-size: var(--medium-font-size);
+    }
+
+    .home-page-section-1-wrapper .information p {
+        line-height: 22px;
+        color: var(--text-dark);
+    }
+
+    .home-page-section-1-wrapper .information button {
+        width: 150px;
+        height: 50px;
+        background-color: var(--primary-2);
+        border-radius: 5px;
+        color: var(--text-light-1);
+        border: none;
+        transition: background-color 0.5s ease-in-out;
+        margin: 30px 0 0 0;
+    }
+
+    .home-page-section-1-wrapper .information:hover button {
+        background-color: var(--primary-1);
+        cursor: pointer;
+    }
+
+    .home-page-section-1-wrapper .image {
+        display: flex;
+        justify-content: center;
+        order: -1;
+    }
+
+    .home-page-section-1-wrapper .image img {
+        width: 80vw;
+        height: 80vw;
+        margin: 0;
+        padding: 0;
+        position: relative;
+    }
+
+    .home-page-section-1-wrapper .concept-cards {
+        margin: 50px 0px;
+        width: 90%;
+        min-height: 30%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
+
+    .home-page-section-1-wrapper .concept-cards .card {
+        margin: 5px 20px;
+        text-align: center;
+        min-height: 30px;
+        max-height: 60px;
+        color: var(--text-light-2);
+        font-family: var(--heading-font);
+        font-size: var(--base-font-size);
+    }
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1180px) {
+
+    /* Your tablet-specific styles here */
+    .home-page-section-1-wrapper .image {
+        width: 50%;
+    }
+
+    .home-page-section-1-wrapper .image img {
+        max-width: 400px;
+    }
+}
+
+
+@media screen and (min-width: 1180px) {
+
+    /* Your desktop-specific styles here */
+    .home-page-section-1-wrapper .image {
+        width: 50%;
+    }
 }
