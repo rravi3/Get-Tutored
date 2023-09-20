@@ -13,6 +13,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: fit-content;
 }
 
 .home-page-section-1-wrapper .book-consulation-section {
@@ -163,6 +164,7 @@
         display: flex;
         justify-content: center;
         order: -1;
+        max-height: 100%;
     }
 
     .home-page-section-1-wrapper .image img {
@@ -212,5 +214,8 @@
     /* Your desktop-specific styles here */
     .home-page-section-1-wrapper .image {
         width: 50%;
+        display: flex;
+        justify-content: center;
+        max-height: 100%;
     }
 }
