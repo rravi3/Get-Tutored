@@ -3,6 +3,7 @@ footer {
     padding: 20px;
     text-align: center;
     color: var(--text-light-2);
+    position: relative;
 }
 
 .about-us {
