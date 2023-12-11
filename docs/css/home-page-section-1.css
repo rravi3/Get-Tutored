@@ -74,7 +74,7 @@
 .home-page-section-1-wrapper .concept-cards {
     margin: 50px 50px;
     width: 90%;
-    min-height: 30%;
+    min-height: 150px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
